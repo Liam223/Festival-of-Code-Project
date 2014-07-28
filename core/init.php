@@ -1,6 +1,6 @@
 <?php
 
-define('SITE_TITLE', 'Map');
+define('SITE_TITLE', 'Interactive Map');
 
 
 try {
