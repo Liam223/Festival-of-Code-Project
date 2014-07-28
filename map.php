@@ -46,6 +46,12 @@ require_once ('core/init.php');
 				</div>
 			</div><!--/span-->
 		</div><!--/row-->
+		
+		<?php
+		
+		
+		
+		?>
 
 		<div class="container">
 			<hr>
