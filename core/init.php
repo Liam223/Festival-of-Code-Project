@@ -20,8 +20,6 @@ try {
 
 require_once('results.class.php');
 
-
-
 ?>
 
 <?php
