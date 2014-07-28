@@ -18,3 +18,13 @@ try {
 require_once('results.class.php');
 
 ?>
+
+<?php
+
+require_once('core/init.php');
+
+$results = new results($dbc);
+
+//$results->get_speed("US");
+
+?>

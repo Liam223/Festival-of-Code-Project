@@ -1,0 +1,15 @@
+#sidebar {
+	top: 100px;
+	float: right;
+	padding: 0
+}
+
+.selection-sidebar input[type="checkbox"] {
+	margin-right: 6px;
+	position: absolute;
+	left: 15px;
+}
+
+.selection-sidebar .list-group-item {
+	padding-left: 36px;
+}
