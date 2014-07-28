@@ -1,13 +1,3 @@
-<?php
-
-require_once('core/init.php');
-
-$results = new results($dbc);
-
-//$results->get_speed("US");
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
