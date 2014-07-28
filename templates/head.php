@@ -6,7 +6,7 @@
 	<meta name="author" content="">
 	<link rel="icon" href="favicon.ico">
 
-	<title>[Insert name here]</title>
+	<title><?php echo SITE_TITLE; ?></title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="/css/bootstrap.min.css" rel="stylesheet">

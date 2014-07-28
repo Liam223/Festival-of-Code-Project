@@ -1,5 +1,8 @@
 <?php
 
+define('SITE_TITLE', 'Map');
+
+
 try {
 
 	$db_name = 'site_db';
@@ -16,6 +19,8 @@ try {
 }
 
 require_once('results.class.php');
+
+
 
 ?>
 
