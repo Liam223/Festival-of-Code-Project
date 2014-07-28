@@ -17,8 +17,24 @@ $results = new results($dbc);
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
+	<script src="/js/af-map.js"></script>
+	<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjTdBrlAB-rsD-j3VuAk0OKEtVdnjRsEc">
+    </script>
+	<script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 
     <title>[Insert name here]</title>
+	
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -210,6 +226,7 @@ $results = new results($dbc);
     </div><!-- /.container -->
 	
 	<div class="map-canvas"></div>
+	
 
 
     <!-- Bootstrap core JavaScript
@@ -218,6 +235,6 @@ $results = new results($dbc);
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/docs.min.js"></script>
-	<script src="/js/af-map.js"></script>
+
   </body>
 </html>
