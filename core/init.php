@@ -5,11 +5,11 @@ define('SITE_TITLE', 'Interactive Map');
 
 try {
 
-	$db_name = 'site_db';
-	$db_user = 'root';
-	$db_pass = '';
+	$db_name = 'c0foc';
+	$db_user = 'c0liam223';
+	$db_pass = 'Letmein1234~ ';
 
-	$dbc = new PDO('mysql:host=127.0.0.1; dbname=' . $db_name, $db_user, $db_pass);
+	$dbc = new PDO('mysql:host=127.0.0.1; dbname=c0foc ' . $db_name, $db_user, $db_pass);
 	$dbc -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	$dbc -> exec("SET CHARACTER SET utf8");
 } catch (PDOException $err) {
