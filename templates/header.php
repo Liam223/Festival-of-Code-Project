@@ -19,7 +19,7 @@
 							<a href="/">Home</a>
 						</li>
 						<li>
-							<a href="/map.php">Map</a>
+							<a href="/festival-of-code-project/map.php">Map</a>
 						</li>
 					</ul>
 				</div>

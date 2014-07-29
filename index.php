@@ -24,12 +24,12 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="/media/fibreoptic.jpg/" alt="First slide">
+          <img src="/festival-of-code-project/media/fibreoptic.jpg/" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>What does our map do?</h1>
               <p>Our interactive map provides information on global mobile and broadband speeds.</p>
-              <p><a class="btn btn-lg btn-primary" href="/map.php/" role="button">View our map</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/festival-of-code-project/map.php/" role="button">View our map</a></p>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
             <div class="carousel-caption">
               <h1>What kind of data can you view?</h1>
               <p>You can easily view information on global broadband and mobile upload and download speeds.</p>
-              <p><a class="btn btn-lg btn-primary" href="/map.php/" role="button">View our map</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/festival-of-code-project/map.php/" role="button">View our map</a></p>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@
             <div class="carousel-caption">
               <h1>What else can you do?</h1>
               <p>You can easily switch between or select multiple sets of data to find the area with the best speeds, quality and whether or not providers live up to their promises!</p>
-              <p><a class="btn btn-lg btn-primary" href="/map.php/" role="button">View our map</a></p>
+              <p><a class="btn btn-lg btn-primary" href="/festival-of-code-project/map.php/" role="button">View our map</a></p>
             </div>
           </div>
         </div>
@@ -72,19 +72,19 @@
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Speed</h2>
           <p>What is the average upload and download speed where I live? Where can I get the best speeds?</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="/festival-of-code-project/map.php/" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Quality</h2>
           <p>How consistent is the service provided by your internet or mobile provider?</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="/festival-of-code-project/map.php/" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Promise</h2>
           <p> Does your internet or mobile provider live up to their promises?</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="/festival-of-code-project/map.php/" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -140,14 +140,13 @@
 
     </div><!-- /.container -->
 	
-	<div id="map-canvas"></div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/docs.min.js"></script>
+    <script src="/festival-of-code-project/js/bootstrap.min.js"></script>
+    <script src="/festival-of-code-project/js/docs.min.js"></script>
 
   </body>
 </html>
