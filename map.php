@@ -12,43 +12,8 @@ require_once ('core/init.php');
 		require_once ('templates/header.php');
 		?>
 		
-		<div class="container">
-			<div class="col-xs-6 col-sm-3 sidebar-offcanvas selection-sidebar" id="sidebar" role="navigation">
-				<div class="list-group">
-					<label class="list-group-item" for="US">
-					<input type="checkbox" name="US" id="US">
-						United States
-					</label>
-					<label class="list-group-item" for="US">
-					<input type="checkbox" name="US" id="US">
-						United States
-					</label>
-					<label class="list-group-item" for="US">
-					<input type="checkbox" name="US" id="US">
-						United States
-					</label>
-					<label class="list-group-item" for="US">
-					<input type="checkbox" name="US" id="US">
-						United States
-					</label>
-					<label class="list-group-item" for="US">
-					<input type="checkbox" name="US" id="US">
-						United States
-					</label>
-					<label class="list-group-item" for="US">
-					<input type="checkbox" name="US" id="US">
-						United States
-					</label>
-					<label class="list-group-item" for="US">
-					<input type="checkbox" name="US" id="US">
-						United States
-					</label>
-					<!-- OLD: <a href="#" class="list-group-item">Link</a> -->
-				</div>
-			</div><!--/span-->
-		</div><!--/row-->
-		
 		<div id="map-canvas">
+		</div>
 		
 		<div class="container">
 			<hr>

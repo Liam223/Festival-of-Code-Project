@@ -15,8 +15,8 @@
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="/">Home</a>
+						<li>
+							<a href="/festival-of-code-project/index.php">Home</a>
 						</li>
 						<li>
 							<a href="/festival-of-code-project/map.php">Map</a>

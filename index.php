@@ -24,7 +24,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="/festival-of-code-project/media/fibreoptic.jpg/" alt="First slide">
+          <img src="/festival-of-code-project/media/fibreoptic.jpg" alt="First slide" style="height: 800px;">
           <div class="container">
             <div class="carousel-caption">
               <h1>What does our map do?</h1>
@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img src="/festival-of-code-project/media/server.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>What kind of data can you view?</h1>
@@ -44,7 +44,7 @@
           </div>
         </div>
         <div class="item">
-          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img src="/festival-of-code-project/media/matrix.jpg" alt="Third slide style="height: 800px;">
           <div class="container">
             <div class="carousel-caption">
               <h1>What else can you do?</h1>

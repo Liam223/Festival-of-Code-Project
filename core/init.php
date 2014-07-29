@@ -1,5 +1,5 @@
 <?php
-define('SITE_TITLE', 'Interactive Map');
+define('SITE_TITLE', 'cMap');
 // You may need to change the values below to login to your server.
 
 // Web address or IP of the mysql server
