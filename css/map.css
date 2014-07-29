@@ -13,3 +13,7 @@
 .selection-sidebar .list-group-item {
 	padding-left: 36px;
 }
+
+#map-canvas { 
+				height: 600px;
+			}

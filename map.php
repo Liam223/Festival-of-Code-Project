@@ -5,12 +5,13 @@ require_once ('core/init.php');
 <!DOCTYPE html>
 <html lang="en">
 	<?php
-	require_once ('templates/head.php');
+	require_once ('templates/map-head.php');
 	?>
 	<body>
 		<?php
 		require_once ('templates/header.php');
 		?>
+		
 		<div class="container">
 			<div class="col-xs-6 col-sm-3 sidebar-offcanvas selection-sidebar" id="sidebar" role="navigation">
 				<div class="list-group">
@@ -47,12 +48,8 @@ require_once ('core/init.php');
 			</div><!--/span-->
 		</div><!--/row-->
 		
-		<?php
+		<div id="map-canvas">
 		
-		
-		
-		?>
-
 		<div class="container">
 			<hr>
 			<footer>
