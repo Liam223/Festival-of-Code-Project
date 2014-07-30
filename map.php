@@ -11,9 +11,8 @@ require_once ('core/init.php');
 		<?php
 		require_once ('templates/header.php');
 		?>
-		
-		<div id="map-canvas">
-		</div>
+		<br/><br/><br/><br/><br/><br/>
+		<div id="chart_div" style="width: 900px; height: 500px;"></div>
 		
 		<div class="container">
 			<hr>
@@ -38,8 +37,8 @@ require_once ('core/init.php');
 		<!-- Bootstrap core JavaScript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="/festival-of-code-project/map.php//js/bootstrap.min.js"></script>
-		<script src="/festival-of-code-project/map.php//js/docs.min.js"></script>
-		<script src="/festival-of-code-project/map.php//js/af-map.js"></script>
+		<script src="/festival-of-code-project/js/bootstrap.min.js"></script>
+		<script src="/festival-of-code-project/js/docs.min.js"></script>
+		<!--<script src="/festival-of-code-project/js/af-map.js"></script>-->
 	</body>
 </html>

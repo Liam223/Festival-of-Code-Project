@@ -6,28 +6,33 @@
 	<meta name="author" content="">
 	<link rel="icon" href="favicon.ico">
 	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjTdBrlAB-rsD-j3VuAk0OKEtVdnjRsEc"></script>
+	<script
+	src="http://maps.googleapis.com/maps/api/js?libraries=geometry,visualization">
+	</script>
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="/festival-of-code-project/js/af-map.js"></script>
-	<script type="text/javascript">
-		
-			$(document).ready(function() {
-				afmap.InitMapByAddress("BT546NS", "map-canvas"); 
-				
-				$("#addMarker").on("click", function() {
-					afmap.GeoCode("BT546NS", function(loc) {
-						afmap.AddMarker(loc.lat(), loc.lng(), "Hello world!!");
-					}); 
-				}); 
-				
-				$("#addMarkerInfo").on("click", function() {
-					afmap.GeoCode("BT546NS", function(loc) {
-						afmap.AddMarkerWithInfoWindow(loc.lat(), loc.lng(), "Hello world!!", "this is some random info!! :-)");
-					}); 
-				}); 
-			
-			}); 
-		
-		</script>
+	<script type='text/javascript' src='https://www.google.com/jsapi'></script>
+    <script type='text/javascript'>
+     google.load('visualization', '1', {'packages': ['geochart']});
+     google.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'Popularity'],
+          ['Germany', 200],
+          ['United States', 300],
+          ['Brazil', 400],
+          ['Canada', 500],
+          ['France', 600],
+          ['RU', 700]
+        ]);
+
+        var options = {};
+
+        var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+    };
+    </script>
 
 	<title><?php echo SITE_TITLE; ?></title>
 
